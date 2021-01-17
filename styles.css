@@ -3,11 +3,30 @@
 /*These are just some colors I picked out, but feel free to change them!
 Overall I think it would look great if we stuck with gradient.
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+* {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
 .jumbotron{
-    background-image: linear-gradient(to right, #fccdcd, #f7b3b3); 
+    background-image: linear-gradient(to right, #cdedfc, #b3def7); 
 }
 
 body{
-    background-image: linear-gradient(to right, #ffebeb, #ffffff); 
+    background-image:linear-gradient(to right, #2f353a, #2f353a);
+    
 }
+
+#defCursor{
+    cursor: default;
+    /* */
+}
+
+.background-blue{
+    background-image: linear-gradient(to right, #cdedfc, #b3def7); 
+    line-height: 3em;
+    box-shadow: 10px 10px 2px 0.1px #141414; 
+}
+
+/*Button shine CSS down below*/
