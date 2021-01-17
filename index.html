@@ -10,39 +10,101 @@
         <title>ThetaHacks</title>
     </head>
 
-<body>
-<!-- This header portion is just for external links, like maybe our Github
-accounts or anything else relevant!
--->
-    <header class="blog-header py-3">
-        <p> Some top links maybe?</p>
-    </header>
-    
-<div class="container">
-    <div class="nav-scroller py-1 mb-2">
-        <nav class="nav d-flex justify-content-between">
-            <a class="p-2 text-muted" href="#">Link</a>
-            <a class="p-2 text-muted" href="#">Another link</a>
-            <a class="p-2 text-muted" href="#">One link</a>
-            <a class="p-2 text-muted" href="#">Link</a>
-        </nav>
-    </div>
-<!-- This rectangular info-box is just a little introduction, we can change it at any time.
-I also just named the bot Covibo on a whim, we can change that too!
--->
-    <div class="jumbotron">
-        <h1 class="display-4">Covibo</h1>
-        <p class="lead">We're at a point in the pandemic where vaccines have been
-            developed and the world is on track to becoming safer. Covibo is a Discord
-            bot that, when prompted, gives information about COVID-19.
-        </p>
-        <hr class="my-4">
-        <p></p>
-      </div>
-</div>
-    
-
-
-    </body>
-
-    </html>
+    <body class="header-fixed">
+        <noscript><img class=col-12 src="CoviBo1.png" width=300 height=200>
+            <h1 class=text-center>CoviBo Dashboard</h1>
+            <h3 class=text-center>CoviBo is a  discord bot featuring COVID-19 information for easy dissemination in the Discord universe. It provides the latest COVID-19 related statistics, mortality risk calculator and Vaccine information and more in a quick and effecient manner!</h3>
+        </noscript>
+        <div class="app">
+            <!-- <header class="app-header navbar">
+                <a href="/" class="navbar-brand router-link-exact-active open active" target="_self"><img src="CoviBo.png" width="89" height="25" alt="CoviBo logo" class="navbar-brand-full d-md-down-none"><img src="CovBo1.png" width="30" height="30" alt="CoviBo logo" class="navbar-brand-minimized"></a>
+                    <ul class="navbar-nav d-md-down-none nav-title">
+                        <li class="nav-item px-2"><a target="_self" href="https://docs.carl.gg/" class="nav-link"><i class="fas fa-book mr-1"></i>Docs</a></li> 
+                        <li class="nav-item px-2"><a target="_self" href="https://discord.gg/DSg744v" class="nav-link"><i class="fab fa-discord mr-1"></i>Discord</a></li>
+                        <li class="nav-item px-2"><a href="/status" class="nav-link" target="_self"><i class="fas fa-heartbeat mr-1"></i>Status</a></li>
+                    </ul>
+                    <ul class="navbar-nav d-lg-none nav-title nav-icons">
+                        <li class="nav-item"><a href="/" class="nav-link router-link-exact-active open active" target="_self"><i class="fas fa-home"></i></a></li>
+                        <li class="nav-item"><a target="_self" href="https://docs.carl.gg/" class="nav-link"><i class="fas fa-book"></i></a></li>
+                        <li class="nav-item"><a target="_self" href="https://discordapp.com/oauth2/authorize?client_id=235148962103951360&amp;scope=bot&amp;permissions=66321471" class="nav-link"><i class="fas fa-plus"></i></a></li>
+                        <li class="nav-item d-sm-down-none"><a target="_self" href="https://discord.gg/DSg744v" class="nav-link"><i class="fab fa-discord"></i></a></li>
+                        <li class="nav-item"><a href="/status" class="nav-link" target="_self"><i class="fas fa-heartbeat"></i></a></li>
+                    </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <div class="mr-2"><button type="button" class="btn px-4 btn-pill dark btn-secondary" style="background-color: rgb(58, 65, 73); border-color: rgb(238, 238, 238); border-width: 2px;">Login</button></div>
+                        </ul>
+            </header> -->
+            <header class="app-header navbar">
+            </a><img src="CoviBo.png" width="100" height="100" alt="CoviBo logo" class="navbar-brand-minimized"></a>
+               <!--  <ul class="navbar-nav d-md-down-none nav-title"> -->
+                   <li class="nav-item px-2"></li>
+                   <li class="nav-item px-2"><a target="_self" href="https://discordapp.com/oauth2/authorize?client_id=235148962103951360&amp;scope=bot&amp;permissions=66321471" class="nav-link"><i data-v-2e9da477="" class="fas fa-plus mr-1"></i>Invite
+                      </a>
+                   </li>
+                   <li class="nav-item px-2"><a target="_self" href="https://discord.gg/yGUn6vp4" class="nav-link"><i class="fab fa-discord mr-1"></i>Discord
+                      </a>
+                   </li>
+                   <li class="nav-item px-2"><a href="/status" class="nav-link" target="_self"><i class="fas fa-heartbeat mr-1"></i>Status
+                      </a>
+                   </li>
+                <!-- </ul> -->
+                <!--
+                <ul data-v-2e9da477="" class="navbar-nav d-lg-none nav-title nav-icons">
+                   <li data-v-2e9da477="" class="nav-item"><a data-v-2e9da477="" href="/" class="nav-link router-link-exact-active open active" target="_self"><i data-v-2e9da477="" class="fas fa-home"></i></a></li>
+                   <li data-v-2e9da477="" class="nav-item"><a data-v-2e9da477="" target="_self" href="https://docs.carl.gg/" class="nav-link"><i data-v-2e9da477="" class="fas fa-book"></i></a></li>
+                   <li data-v-2e9da477="" class="nav-item"><a data-v-2e9da477="" target="_self" href="https://discordapp.com/oauth2/authorize?client_id=235148962103951360&amp;scope=bot&amp;permissions=66321471" class="nav-link"><i data-v-2e9da477="" class="fas fa-plus"></i></a></li>
+                   <li data-v-2e9da477="" class="nav-item d-sm-down-none"><a data-v-2e9da477="" target="_self" href="https://discord.gg/DSg744v" class="nav-link"><i data-v-2e9da477="" class="fab fa-discord"></i></a></li>
+                   <li data-v-2e9da477="" class="nav-item"><a data-v-2e9da477="" target="_self" href="https://www.patreon.com/carlbot" class="nav-link"><i data-v-2e9da477="" class="fab fa-patreon"></i></a></li>
+                   <li data-v-2e9da477="" class="nav-item"><a data-v-2e9da477="" href="/status" class="nav-link" target="_self"><i data-v-2e9da477="" class="fas fa-heartbeat"></i></a></li>
+                </ul>
+                <ul data-v-2e9da477="" class="navbar-nav ml-auto">
+                   <div data-v-2e9da477="" class="mr-2"><button data-v-2e9da477="" type="button" class="btn px-4 btn-pill dark btn-secondary" style="background-color: rgb(58, 65, 73); border-color: rgb(238, 238, 238); border-width: 2px;">Login</button></div>
+                </ul> -->
+                
+                <ul class="navbar-nav d-lg-none nav-title nav-icons">
+                    <li  class="nav-item"><a  href="/" class="nav-link router-link-exact-active open active" target="_self"><i  class="fas fa-home"></i></a></li>
+                    <li  class="nav-item"><a  target="_self" href="https://discordapp.com/oauth2/authorize?client_id=235148962103951360&amp;scope=bot&amp;permissions=66321471" class="nav-link"><i  class="fas fa-plus"></i></a></li>
+                    <li  class="nav-item d-sm-down-none"><a  target="_self" href="https://discord.gg/yGUn6vp4" class="nav-link"><i  class="fab fa-discord"></i></a></li>
+                    <li  class="nav-item"><a  target="_self" href="https://www.patreon.com/carlbot" class="nav-link"><i  class="fab fa-patreon"></i></a></li>
+                    <li  class="nav-item"><a  href="/status" class="nav-link" target="_self"><i  class="fas fa-heartbeat"></i></a></li>
+                 </ul>
+                 <ul  class="navbar-nav ml-auto">
+                    <div  class="mr-2"><button  type="button" class="btn px-4 btn-pill dark btn-secondary" style="background-color: rgb(58, 65, 73); border-color: rgb(238, 238, 238); border-width: 2px;">Login</button></div>
+                 </ul>
+             </header>
+            
+            <div class="app-body background">
+                <main class="main" style="margin-left: 0px;">
+                <div ><br >
+                    <div class="container" style="min-height: 85vh !important;">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                          <div class="row align-items-center"><div class="col"><img src="CoviBo.png" width="400" height="300" class="turtle"></div>
+                       <!--  <div class="col"><h1 class="title">
+                            CoviBo
+                <br>Dashboard
+              </h1>
+              <div></div> 
+                  <button type="button" class="btn btn-lg mainbutton btn-secondary btn-block rounded-pill"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="discord" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="mx-2 svg-inline--fa fa-discord fa-w-14"></svg>Log in with Discord
+                         </button>
+              </div></div></div></div>-->
+              <br><div></div></br>
+              <div class="row justify-content-center" style="margin-top: 125px;"> 
+                <h1 class="subtitle" style="margin-top: 55px;">Why CoviBo?</h1></div><hr><div><div class="row justify-content-between"><div><h2 class="subtitle"> 
+                          Covid-19 Worldwide Statistics
+              <a href="https://covid19.who.int/" style="color: rgb(119, 119, 119); font-size: 15px;">[WHO Data]</a></h2><ul><li>WHO Coronavirus Disease (COVID-19) Dashboard</li><li>Worldwide COVID-19 cases and deaths reported by countries, territories and areas</li><li>Frequent updated data visualization, data dissemination and data exploration resource</li></ul></div><div><img src="WHO.png"></div></div><hr><div class="row justify-content-between"><div><h2 class="subtitle">
+             Covid-19 US Statistics
+              <a href="https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days" style="color: rgb(119, 119, 119); font-size: 15px;">[CDC Data]</a></h2><ul><li>COVID-19 cases, hospitalizations, and deaths across the United States</li><li>Maps, charts, and data provided by the CDC, updated daily by 8 pm ET</li><li>US COVID-19 Average Daily Case Rate in Last 7 Days, by State/Territory</li></ul></div><div><img src="CDC.png"></div></div><hr><div class="row justify-content-between"><div><h2 class="subtitle">
+              Mortality Risk Calculator
+              <a href="https://covid19risktools.com:8443/riskcalculator" style="color: rgb(119, 119, 119); font-size: 15px;">[Johns Hopkins Calculator]</a></h2><ul><li>Assessment of individualized risks for mortality from COVID-19</li><li>Uses the best publicly available information</li><li>"Factors in risks associated with various predisposing factors</li></ul></div><div><img src="MortalityRiskCalculator.png"></div></div><hr><div class="row justify-content-between"><div><h2 class="subtitle">
+              Covid-19 Vaccines
+              <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html" style="color: rgb(119, 119, 119); font-size: 15px;">[Vaccines]</a></h2><ul><li>Different COVID-19 Vaccines</li><li>Understanding How COVID-19 Vaccines Work</li><li>Understanding Viral Vector COVID-19 Vaccines</li><li>Authorized and Recommended Vaccines</li></ul></div><div><img src="VaccineComparisons.png"></div></div><hr><div class="row justify-content-between"><div><h2 class="subtitle">
+              Welcome messages
+              </h2><ul><li>Send welcome messages, farewell messages and ban messages</li><li>Send a dm upon joining that is separate from the normal welcome message</li><li>Supports embeds and variables!</li></ul></div></div><hr><div class="row justify-content-between"><div><h2 class="subtitle"></h2>
+                  <h2 class="subtitle">User engagement</h2><ul><li>It has a starboard, everyone loves a good starboard</li><li>Send a message every x minutes and optionally ping a role</li><li>Fast twitch notifications</li><li>Mention roles without leaving them mentionable with feeds</li><li>Postcount tracking</li><li>Cats, dogs and various cute animals</li><li>User info like join date, creation date, and nickname history</li></ul></div></div></div><hr><div class="d-flex flex-column" style="margin-top: 20px;">
+                    <footer class="footer"><div class="container"><div class="row"><div class="col">
+                      <h6 class="tinytitle">CoviBo</h6>A service provided by
+                <a href="https://github.com/Jack2104/thetahacks-discord-bot">CoviBo Gitlab</a> | All Rights Reserved</div>
+     </body>
+     
+ </html>
