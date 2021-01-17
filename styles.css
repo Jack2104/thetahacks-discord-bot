@@ -1,0 +1,13 @@
+/** START **/
+
+/*These are just some colors I picked out, but feel free to change them!
+Overall I think it would look great if we stuck with gradient.
+*/
+
+.jumbotron{
+    background-image: linear-gradient(to right, #fccdcd, #f7b3b3); 
+}
+
+body{
+    background-image: linear-gradient(to right, #ffebeb, #ffffff); 
+}
