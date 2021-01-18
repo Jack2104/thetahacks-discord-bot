@@ -13,9 +13,16 @@ Covibo was built with more than just python; it was built with the knowledge tha
 
 What Are The Commands?
 Here you will find a list of currently available commands--more will be available with future programming. To review these commands in your discord server, simply type '!help' and a full list + description will come up:
-!cdc -- shows various links to CDC resources
-!stats -- shows the global COVID-19 statistics and links to a page listing the up-to-date stats.
-!USAstats -- shows the COVID-19 cases in the USA
-!risk -- [Several parameters, enter as listed below with spaces separating each parameter]
-(age) (zip code) (are you hispanic (Y/N)) (gender) (feet (height)) (inches (height)) (weight (lbs))
-!cases -- Shows current up-to-date counts of COVID-19 cases, deaths and recoveries
+- !help --          Shows list of all available commands to help people use the bot
+- !who --          Shows World Health Organization's COVID-19 Dashboard to keep people up to date.
+- !cdc --           Shows various links to CDC resources, with just another way to keep people posted.
+- !cases--         Shows current up-to-date counts of COVID-19 cases, deaths, and recoveries
+- !stats --         Shows the global COVID-19 statistics and current news related to Covid.
+- !USAstats -- Shows the COVID-19 statistics in the USA.
+- !risk--           Shows COVID-19 mortality risk depending on input biometrics (age, location, race, gender, height, 
+                      and weight) [Enter as listed below with spaces separating each parameter]
+                      <age> <zip code> <hispanic? (y/n)> <gender> <feet (height)> <inches (height)> <weight (lbs)>
+                     (Example: !risk 75 07728 y male 5 3 200)
+!help<category> --  Shows more info on a category. (Example: !help risk)
+  
+  There will be updates to come as well!
