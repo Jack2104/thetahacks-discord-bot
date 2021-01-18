@@ -25,4 +25,4 @@ Here you will find a list of currently available commands--more will be availabl
                      (Example: !risk 75 07728 y male 5 3 200)
 !help<category> --  Shows more info on a category. (Example: !help risk)
   
-  There will be updates to come as well!
+Of Course, there will be many updates to come as well!
